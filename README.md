@@ -3,18 +3,26 @@
 Monitor CiscoASA, PIX devices 
 
 
+	![Cisco ASA Searches and Workspaces](http://www.google.com) 
 
 
+## Installation
 
-To monitor CiscoASA devices point your devices syslog server to 
+
+1. To monitor CiscoASA devices point your devices to the Logscape's Syslog Server
 
 	tcp MANAGER:1468,
 	udp MANAGER:1516 
 
-Import the Cisco config from here 
+2. Import the CiscoSyslog.config file
 
 
-Update you CiscoASA logs to match your files 
+3.  Update the CiscoASA datatype to match the names of your device's host. 
+
+	
+
+4.  If your logs get deleted off your Cisco Device Logscape will have retain a local copy.
+
 
 
 ![](docs/images/apphome.png)
