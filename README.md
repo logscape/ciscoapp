@@ -1,7 +1,7 @@
 # CiscoApp-1.0 
 
-Monitor CiscoASA, PIX devices 
 
+Monitor Cisco ASA and PIX family devices
 
 ## Overview 
 
@@ -14,7 +14,7 @@ Monitor CiscoASA, PIX devices
 
 
 
-### Syslog Server 
+### Using Logscape Syslog Server 
 The Logscape Manager runs a Syslog server on these ports 
 
 	tcp MANAGER:1468
