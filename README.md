@@ -19,7 +19,7 @@ Monitor CiscoASA, PIX devices
 
 3.  Update the CiscoASA datatype to match the names of your device's host. 
 
-![](docs/images/datatype.png) 
+	![](docs/images/datatype.png) 
 	
 
 4.  If your logs get deleted off your Cisco Device Logscape will have retain a local copy.
