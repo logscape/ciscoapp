@@ -8,8 +8,9 @@ Monitor CiscoASA, PIX devices
 
 ## Installation
 
+It is recommended to use Logscape Syslog Server to monitor your Cisco Devices. If your data is deleted if the device, the logs will remain in Logscape. 
 
-1. To monitor CiscoASA devices point your devices to the Logscape's Syslog Server
+1. To monitor CiscoASA devices create a datasource that points to your log data or point your Cisco devices to Logscape's Syslog Server
 
 	tcp MANAGER:1468
 	udp MANAGER:1514
@@ -17,12 +18,12 @@ Monitor CiscoASA, PIX devices
 2. Import the CiscoSyslog.config file
 
 
-3.  Update the CiscoASA datatype to match the names of your device's host. 
+3.  Update the Dir and File fields of the cisco-asa datatype to reflect the location of your data. 
 
 	![](docs/images/datatype.png) 
-	
 
-4.  If your logs get deleted off your Cisco Device Logscape will have retain a local copy.
+	If you are using Logscapes Syslog server update the host to match that of your Cisco ASA Device	
+
 
 
 
