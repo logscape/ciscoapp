@@ -5,7 +5,7 @@ Monitor CiscoASA, PIX devices
 
 ## Overview 
 
- ![](ocs/images/apphome.png)
+ ![](docs/images/apphome.png)
 
 
 ## Installation
