@@ -1,0 +1,9 @@
+<Bundle name="DockerApp" version="1.0" system="false">
+  <status>UNINSTALLED</status>
+  <owner>info@logscape.com</owner>
+  <services>
+  
+
+
+  </services>
+</Bundle>
