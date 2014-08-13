@@ -18,7 +18,7 @@ Monitor Cisco ASA and PIX family devices in a few quick easy step
 ## Downloads
 
 
-* [Cisco App](https://github.com/logscape/ciscoapp/raw/master/dist/CiscoApp-1.1.zip)
+* [Cisco App](https://github.com/logscape/ciscoapp/raw/master/dist/CiscoApp-1.0.zip)
 
 
 
