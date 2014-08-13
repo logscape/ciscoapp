@@ -41,7 +41,7 @@ In this step you will need to update your syslog-server data sources. Add the ta
 
 This tag identifies your Syslog data as Cisco Syslog messages. 
 
-	![](docs/images/datasource.png) 
+ ![](docs/images/datasource.png) 
 
 
 
