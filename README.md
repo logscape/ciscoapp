@@ -1,16 +1,24 @@
 # CiscoApp-1.0 
 
 
-Monitor Cisco ASA and PIX family devices
+Monitor Cisco ASA and PIX family devices in a few quick easy step
 
 ## Overview 
 
- ![](docs/images/apphome.png)
+ The CiscoApp contains 4 main workspaces to give your insight into your network traffic
+
+	* Home - Overview of Syslog Messages 
+	* Traffic - Charts that help with the analysis of incoming and out going connections
+	* Interface - A break down of your messages by interface type
+	* Bandwidth - Address, Protocol and Port views of bandwidth utilization 
+
+ ![](docs/images/cisco-denied_traffic.png)
 
 
-## Installation
+## Downloads
 
 
+* [Cisco App](https://github.com/logscape/ciscoapp/raw/master/dist/CiscoApp-1.1.zip)
 
 
 
@@ -25,39 +33,17 @@ Logscape Syslog Server will collect and store your Cisco data in the following l
 
 	$LOGSCAPE_HOME/work/Syslog_Server/device.hostname.local/*
 
-In the next step you will need to update your CiscoASA datatype. By default it will try and assign the cisco-asa datatype to any log in the syslog server folder. 
-You will need update the cisco-asa datatype by updating the Dir to match the host forwarding your Cisco Syslog data. 
+### Modify your Syslog Server Data Source
 
-	![](docs/images/datatype.png) 
+In this step you will need to update your syslog-server data sources. Add the tag to your data source
 
- For example if your Cisco device sits on vpn0.acme.local then you update your Datatype to. i
-	![](docs/images/datatype-syslogexample-dir.png)
+	cisco-asa 
 
- To match a group of host that have a similar name structure:
+This tag identifies your Syslog data as Cisco Syslog messages. 
 
- * vpn0.acme.local
- * vpn1.acme.local
- * vpn2.acme.local 
-
-You would use the following Dir setting
-
-	./work/**/vpn*.acme.local/* 
+	![](docs/images/datasource.png) 
 
 
-### Using a  Data Source 
 
-If your data is in a file location you can create a datasource
-
-![](docs/images/datasource-syslogexample.png)
-
-This will pull in all the log files from the asa folder
-
-![](docs/images/asafiles.png)
-
-
-The last step is updating your datatype to reflect your data
-
-
-![](docs/images/datatype-syslogexample0.png) )
 
 
