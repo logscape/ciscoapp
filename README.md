@@ -52,7 +52,7 @@ This tag identifies your Syslog data as Cisco Syslog messages.
 
 # Cisco Denied GeoIP
 
- ![](docs/images/cisco-denied_traffic_map.png)
+ ![](docs/images/cisco-denied_map.png)
 
 # Cisco Traffic 
 
